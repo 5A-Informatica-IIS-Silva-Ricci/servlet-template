@@ -1,3 +1,13 @@
+/*
+Classe a cui viene deserializzato un json ricevuto attraverso la richiesta web che effettua la servlet
+tramite il WebTarget.
+Ogni variabile in questa classe deve corrispondere a un parametro del json che si riceve.
+Esempio del JSON:
+{
+    "dato1": "esempio",
+    "dato2": "esempio2"
+}
+ */
 public class BeanRisposta {
     private String dato1;
     private String dato2;
